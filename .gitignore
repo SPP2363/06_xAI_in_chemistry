@@ -131,3 +131,5 @@ cython_debug/
 
 # VS Code settings
 .vscode/
+
+lightning_logs/
