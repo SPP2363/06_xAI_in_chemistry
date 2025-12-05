@@ -44,6 +44,19 @@ dependencies = [
     "pandas>=1.2.0,<2.0",
     "rdkit>=2024.3.1,<2026.0",
     "rich_click>=1.7.0,<2.0",
+    # Deep learning and GNN dependencies
+    "torch>=2.0.0",
+    "torch_geometric>=2.4.0",
+    "pytorch-lightning>=2.0.0",
+    # XAI method dependencies
+    "shap>=0.42.0",
+    "captum>=0.6.0",
+    "exmol>=2.1.0",
+    # Molecular representation
+    "selfies>=2.1.0",
+    # Utility dependencies
+    "scikit-learn>=1.0.0",
+    "jupyterlab>=4.0.0",
 ]
 
 # Executable Scripts

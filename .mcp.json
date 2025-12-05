@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jupyter": {
+      "command": "uvx",
+      "args": ["jupyter-mcp-server"],
+      "env": {
+        "JUPYTER_URL": "http://localhost:8888",
+        "JUPYTER_TOKEN": "xai-chem-review-mcp-token",
+        "ALLOW_IMG_OUTPUT": "true"
+      }
+    }
+  }
+}

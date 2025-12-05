@@ -6,4 +6,4 @@ This repository will contain the tutorial notebooks.
 
 **0.1.0 - initial version**
 
-TBD.
+TBD.cd . 
