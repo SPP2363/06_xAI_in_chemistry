@@ -52,6 +52,8 @@ dependencies = [
     "shap>=0.42.0",
     "captum>=0.6.0",
     "exmol>=2.1.0",
+    "myerson[explain]",
+    "graph_attention_student>=1.1.0",
     # Molecular representation
     "selfies>=2.1.0",
     # Utility dependencies
@@ -101,3 +103,4 @@ files = [
 
 [tool.uv.sources]
 vgd-counterfactuals = { git = "https://github.com/the16thpythonist/vgd_counterfactuals" }
+myerson = { git = "https://github.com/kochgroup/myerson" }
