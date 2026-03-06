@@ -20,21 +20,18 @@ uv pip install <package>
 
 ## Jupyter Notebooks
 
-### Reading Notebooks
+### Reading and Editing Notebooks
 
-**Important**: Do NOT read notebook files (`.ipynb`) directly using the `Read` tool - they contain large binary outputs (images, data) that clutter the context.
+Always use the MCP server tools for reading and editing Jupyter notebooks:
 
-Instead, **always strip outputs first** before reading a notebook:
+- **Reading notebooks**: Use `mcp__jupyter-notebook__read_notebook_source_only` to read notebook content. This returns cell sources without outputs, which is more efficient for understanding notebook structure.
+- **Reading with outputs**: Use `mcp__jupyter-notebook__read_notebook_with_outputs` only when you need to see cell execution outputs.
+- **Reading specific cell output**: Use `mcp__jupyter-notebook__read_output_of_cell` to read the output of a specific cell by its ID.
+- **Editing cells**: Use `mcp__jupyter-notebook__edit_cell` to modify existing cell content.
+- **Adding cells**: Use `mcp__jupyter-notebook__add_cell` to insert new cells at a specific position.
+- **Executing cells**: Use `mcp__jupyter-notebook__execute_cell` to run a specific cell and retrieve its output.
 
-```bash
-jupyter nbconvert --to notebook --ClearOutputPreprocessor.enabled=True --stdout <notebook.ipynb>
-```
-
-This gives you clean source code without execution outputs, images, or other binary data.
-
-### Editing Notebooks
-
-Use the built-in `NotebookEdit` tool to modify notebook cells.
+Do NOT use the standard `Read`, `Edit`, or `Write` tools for `.ipynb` files, as these tools do not properly handle the JSON structure of Jupyter notebooks.
 
 ### Executing Notebooks
 
