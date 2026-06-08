@@ -134,7 +134,17 @@ cython_debug/
 
 lightning_logs/
 
-checkpoints/*
+checkpoints/
 
 # Test artifacts (debugging outputs)
 tests/artifacts/
+
+# Backup notebooks
+*_backup.ipynb
+
+# Papers and generated QR codes
+papers/
+qrcodes/
+
+# Jupyter collaboration YStore (transient CRDT cache)
+.jupyter_ystore.db*
