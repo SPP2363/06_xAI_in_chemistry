@@ -1,0 +1,42 @@
+name,parent_smiles,smiles,n_substituted,parent_solubility
+"1,2-dichlorobenzene",Clc1ccccc1Cl,[At]c1ccccc1[At],2,-3.0534
+"1,2-dichloroethane",ClCCCl,[At]CC[At],2,-1.06
+"1,4-dichlorobenzene",Clc1ccc(Cl)cc1,[At]c1ccc([At])cc1,2,-3.35
+1-chlorobutane,CCCCCl,CCCC[At],1,-2.03
+1-chloronaphthalene,Clc1cccc2ccccc12,[At]c1cccc2ccccc12,1,-3.9706
+"2,4-D",O=C(O)COc1ccc(Cl)cc1Cl,O=C(O)COc1ccc([At])cc1[At],2,-2.5139
+2-chloronaphthalene,Clc1ccc2ccccc2c1,[At]c1ccc2ccccc2c1,1,-4.143
+2-chlorophenol,Oc1ccccc1Cl,Oc1ccccc1[At],1,-0.7538
+4-chloroaniline,Nc1ccc(Cl)cc1,Nc1ccc([At])cc1,1,-1.6286
+4-chlorobenzaldehyde,O=Cc1ccc(Cl)cc1,O=Cc1ccc([At])cc1,1,-2.1771
+4-chlorophenol,Oc1ccc(Cl)cc1,Oc1ccc([At])cc1,1,-0.6877
+4-chlorotoluene,Cc1ccc(Cl)cc1,Cc1ccc([At])cc1,1,-3.1024
+4-fluorobenzoic acid,O=C(O)c1ccc(F)cc1,O=C(O)c1ccc([At])cc1,1,-2.0673
+DDT,Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl)cc1,[At]c1ccc(C(c2ccc([At])cc2)C([At])([At])[At])cc1,5,-7.8092
+allyl chloride,C=CCCl,C=CC[At],1,-1.3562
+atrazine,CCNc1nc(Cl)nc(NC(C)C)n1,CCNc1nc([At])nc(NC(C)C)n1,1,-3.85
+benzyl chloride,ClCc1ccccc1,[At]Cc1ccccc1,1,-2.3822
+carbon tetrachloride,ClC(Cl)(Cl)Cl,[At]C([At])([At])[At],4,-2.31
+chloramphenicol,O=C(NC(CO)C(O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl,O=C(NC(CO)C(O)c1ccc([N+](=O)[O-])cc1)C([At])[At],2,-2.1114
+chloroacetic acid,O=C(O)CCl,O=C(O)C[At],1,0.9277
+chlorobenzene,Clc1ccccc1,[At]c1ccccc1,1,-2.4493
+chlorobenzilate,CCOC(=O)C(O)(c1ccc(Cl)cc1)c1ccc(Cl)cc1,CCOC(=O)C(O)(c1ccc([At])cc1)c1ccc([At])cc1,2,-4.512
+chloroethane,CCCl,CC[At],1,-1.0507
+chloroform,ClC(Cl)Cl,[At]C([At])[At],3,-1.1738
+chlorpyrifos,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl,CCOP(=S)(OCC)Oc1nc([At])c([At])cc1[At],3,-5.4956
+diazepam,CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)CN=C(c2ccccc2)c2cc([At])ccc21,1,-3.76
+dichloromethane,ClCCl,[At]C[At],2,-0.63
+diclofenac,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1ccccc1Nc1c([At])cccc1[At],2,-4.6203
+dieldrin,ClC1=C(Cl)C2(Cl)C3C4CC(C5OC45)C3C1(Cl)C2(Cl)Cl,[At]C1=C([At])C2([At])C3C4CC(C5OC45)C3C1([At])C2([At])[At],6,-6.2908
+epichlorohydrin,ClCC1CO1,[At]CC1CO1,1,-0.1474
+fluoxetine,CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1,CNCCC(Oc1ccc(C([At])([At])[At])cc1)c1ccccc1,3,-1.59
+haloperidol,O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1,O=C(CCCN1CCC(O)(c2ccc([At])cc2)CC1)c1ccc([At])cc1,2,-4.4289
+hexachlorobenzene,Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,[At]c1c([At])c([At])c([At])c([At])c1[At],6,-7.56
+lindane,ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl,[At]C1C([At])C([At])C([At])C([At])C1[At],6,-4.6
+methoxychlor,COc1ccc(C(c2ccc(OC)cc2)C(Cl)(Cl)Cl)cc1,COc1ccc(C(c2ccc(OC)cc2)C([At])([At])[At])cc1,3,-6.5386
+pentachlorophenol,Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,Oc1c([At])c([At])c([At])c([At])c1[At],5,-4.2793
+tetrachloroethylene,ClC(Cl)=C(Cl)Cl,[At]C([At])=C([At])[At],4,-2.54
+trichloroacetic acid,O=C(O)C(Cl)(Cl)Cl,O=C(O)C([At])([At])[At],3,0.519
+trichloroethylene,ClC=C(Cl)Cl,[At]C=C([At])[At],3,-1.96
+triclosan,Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl,Oc1cc([At])ccc1Oc1ccc([At])cc1[At],3,-4.4617
+vinyl chloride,C=CCl,C=C[At],1,-1.36

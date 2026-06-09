@@ -1,11 +1,13 @@
 {
   "mcpServers": {
     "jupyter-notebook": {
-      "command": "uv",
-      "args": ["run", "--with", "mcp-server-jupyter", "mcp-server-jupyter"],
+      "command": "uvx",
+      "args": ["jupyter-mcp-server@latest"],
       "env": {
-        "UV_PROJECT_ENVIRONMENT": "/media/ssd2/Programming/xai_chem_review/.venv"
-      } 
+        "JUPYTER_URL": "http://localhost:8889",
+        "JUPYTER_TOKEN": "xaichem-mcp-token",
+        "ALLOW_IMG_OUTPUT": "false"
+      }
     }
   }
 }

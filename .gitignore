@@ -148,3 +148,6 @@ qrcodes/
 
 # Jupyter collaboration YStore (transient CRDT cache)
 .jupyter_ystore.db*
+
+# Jupyter local collaboration session state
+.jupyter/
