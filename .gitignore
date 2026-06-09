@@ -151,3 +151,7 @@ qrcodes/
 
 # Jupyter local collaboration session state
 .jupyter/
+
+# Local agent / MCP config
+.mcp.json
+CLAUDE.md
